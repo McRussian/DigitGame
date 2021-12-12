@@ -25,7 +25,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         src/main.cpp \
-        src/gui/digitgamemainwindow.cpp
+        src/gui/digitgamemainwindow.cpp \
+        src/gui/common/statuswidget.cpp \
+        src/gui/common/timerwidget.cpp \
+        src/gui/common/maingamewidget.cpp
 
 HEADERS += \
-        src/gui/digitgamemainwindow.h
+        src/gui/digitgamemainwindow.h \
+        src/gui/common/statuswidget.h \
+        src/gui/common/timerwidget.h \
+        src/gui/common/maingamewidget.h
